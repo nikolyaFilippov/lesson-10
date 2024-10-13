@@ -45,8 +45,7 @@ public class Main {
             int temp = Integer.parseInt(arrayString[j][i]);
             numArr[j][i] = temp;
             sum = sum + temp;
-               // System.out.print(arrayString[i][j]+" строка ");
-               // System.out.println(numArr[i][j]+" числа");
+
             }
             System.out.println();
         }

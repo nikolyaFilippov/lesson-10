@@ -11,7 +11,7 @@ public class Main {
         persArei[3].printInfo();
         Park park = new Park("Колокольчик");
         park.printInfoPark();
-       // park.attraction.printInfo();
+
 
     }
 

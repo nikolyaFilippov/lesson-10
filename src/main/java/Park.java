@@ -11,7 +11,7 @@ public class Park {
             this.nameattrAction = nameattrAction;
             this.price = price;
             this.openingHours = openingHours;
-            //Attraction attraction = new Attraction(this.nameattrAction,this.price,this.openingHours);
+
         }
 
         public void  printInfo(){

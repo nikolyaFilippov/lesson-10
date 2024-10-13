@@ -33,7 +33,7 @@ public class Main {
        }catch (NumberFormatException e){
            throw new MyArrayDataException("В массиве не корректные символы"+e);
        }
-        System.out.println("Код работает коректно");
+
 
     }
   static   int  numArr[][] = new int[4][4];

@@ -29,7 +29,6 @@ public class Main {
                 "word5"
         };
 
-
         List<String> wordsListWithoutDuplication = Arrays.stream(words)
                 .distinct()
                 .collect(Collectors.toList());

@@ -1,6 +1,6 @@
 package Lesson11_1;
 
-public class Circle extends Figure implements Сalculator{
+public class Circle extends Figure implements Сalculator {
     private int radius;
     private double perimeter;
     private double area;
@@ -10,18 +10,17 @@ public class Circle extends Figure implements Сalculator{
         this.radius = radius;
     }
 
-
     @Override
     public void perimeter() {
-        perimeter = 2*3.14 * radius;
+        perimeter = 2 * 3.14 * radius;
     }
 
     @Override
     public void area() {
-        area = 3.14*(radius*radius);
+        area = 3.14 * (radius * radius);
     }
 
-    public void infoCircle(){
+    public void infoCircle() {
         perimeter();
         area();
         printColor();

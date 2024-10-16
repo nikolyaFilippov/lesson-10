@@ -5,21 +5,23 @@ public class Animal {
     public static int counter = 0;
 
 
-    public Animal(){
+    public Animal() {
         //this.species = species;
-        counter = counter+1;
+        counter = counter + 1;
     }
 
 
-    public void run(int run){
+    public void run(int run) {
         int run1 = run;
-        System.out.println("Животное бежит"+run1);
+        System.out.println("Животное бежит" + run1);
     }
-    public void swim(int swim){
+
+    public void swim(int swim) {
         int swim1 = swim;
-        System.out.println("животное плывет"+swim1);
+        System.out.println("животное плывет" + swim1);
     }
-    public static void invo(){
-        System.out.println("Животеых создано "+counter);
+
+    public static void invo() {
+        System.out.println("Животеых создано " + counter);
     }
 }

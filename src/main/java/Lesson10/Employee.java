@@ -1,3 +1,5 @@
+package Lesson10;
+
 public class Employee {
    private  String initials;
     private String jobTitle;

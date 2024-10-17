@@ -1,8 +1,6 @@
 package Lesson13;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -42,7 +40,28 @@ public class Main {
         Map<String, Long> collect = Arrays.stream(words)
                 .collect(Collectors.groupingBy(s -> s, Collectors.counting()));
         collect.forEach((s, aLong) -> {System.out.println(s + " met " + aLong + " times");});
+        System.out.println("\n");
+        TelephoneDirectory directory6 = new TelephoneDirectory("Петров",297544333);
+        Data.objectList.add(directory6);
+        TelephoneDirectory.get("Петров");
+
+        List<TelephoneDirectory> objectList = Data.getObjectList();
+        List<TelephoneDirectory> objectList1 = objectList.stream().filter(o ->o.getSurname()== o.temp)
+                .collect(Collectors.toList());
+
+        for (int i =0; i<objectList1.size(); i++){
+            System.out.println(objectList1.get(i));
+        }
+
+
+
+
+
+
+
+
 
 
     }
+
 }
